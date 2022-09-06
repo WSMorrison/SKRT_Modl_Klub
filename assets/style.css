@@ -5,7 +5,14 @@ body {
     color: Blue;
 }
 
-#splash-logo {
+#nav-logo {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    color:rgb(238, 88, 88);
+}
+
+#splash-text {
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 4rem;
@@ -25,4 +32,14 @@ body {
 
 .responsive-image {
     width: 100%;
+}
+
+#splash-cover {
+    font-size: 1rem;
+    font-family: 'Palanquin Dark', sans-serif;
+    width: 600px;
+    height: 200px;
+    top: 150px;
+    left: 30px;
+    position: absolute;
 }
