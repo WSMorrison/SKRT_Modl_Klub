@@ -12,6 +12,18 @@ body {
     color:rgb(238, 88, 88);
 }
 
+.nav-list {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-list > li {
+    margin-left: 30px;
+}
+
 #splash-text {
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
