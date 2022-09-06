@@ -1,13 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Rubik+Dirt&display=swap");
 
-h1 {
+body {
+    font-family: 'Palanquin Dark', sans-serif;
+    color: Blue;
+}
+
+#splash-logo {
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 4rem;
-    color:red;
+    color:rgb(238, 88, 88);
 }
 
-p {
-    font-family: 'Palanquin Dark', sans-serif;
-    color: Blue;
+#splash-contain {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#splash-image {
+    height: 600px;
+    width: 100%;   
+}
+
+.responsive-image {
+    width: 100%;
 }
