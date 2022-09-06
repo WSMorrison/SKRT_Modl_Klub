@@ -54,24 +54,38 @@ body {
     height: 300px;
     background-color:rgba(83, 56, 56, 0.7);
     top: 150px;
-    left: 30px;
-    position: absolute;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
 }
 
 #splash-text-big {
+    height: 90px;
+    width: 275px;
+    background-color: blanchedalmond;
+    border-style: dashed;
+    border-color: black;
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 9rem;
-    color:rgb(238, 88, 88);  
+    color:rgb(238, 88, 88);
     display: flex;
     justify-content: center;
+    align-items: flex-start;    
 }
 
 #splash-text-small {
+    height: 90px;
+    width: 275px;
+    background-color:blanchedalmond;
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 5rem;
-    color:rgb(238, 88, 88);  
+    color:rgb(238, 88, 88);
     display: flex;
     justify-content: center;
+    align-items: flex-start;    
 }
