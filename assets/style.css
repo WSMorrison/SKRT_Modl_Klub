@@ -50,8 +50,6 @@ body {
 }
 
 #splash-cover {
-    font-size: 1rem;
-    font-family: 'Palanquin Dark', sans-serif;
     width: 600px;
     height: 200px;
     background-color:rgba(83, 56, 56, 0.7);
@@ -60,13 +58,16 @@ body {
     position: absolute;
 }
 
-#splash-text {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+#splash-text-big {
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
-    font-size: 7rem;
-    color:rgb(238, 88, 88);
-    
+    font-size: 9rem;
+    color:rgb(238, 88, 88);  
+}
+
+#splash-text-small {
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: 200;
+    font-size: 6rem;
+    color:rgb(238, 88, 88);  
 }
