@@ -48,7 +48,8 @@ body {
 .splash {
     height: 300px;
     width: 100%;
-    background-color: aqua;
+    background: url(../assets/images/Splash_Alfa_Romeo_2000x.jpg) center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
