@@ -5,12 +5,15 @@ html {
 }
 
 #header {
+    height: 50px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .header-footer {
-    background-color: rgb(83, 56, 56);
+    background-color: rgba(117, 129, 133, 1.0);
 }
 
 body {
@@ -27,7 +30,7 @@ body {
     font-family: 'Palanquin Dark', sans-serif;
     font-weight: 200;
     font-size: 1.6rem;
-    color:rgb(255, 255, 255);
+    color: rgba(253, 255, 252, 1.0);
     padding: 20px;
 }
 
@@ -37,7 +40,7 @@ body {
     justify-content: flex-end;
     text-decoration: none;
     list-style-type: none;
-    color:rgb(255, 255, 255);
+    color:rgba(253, 255, 252, 1.0);
     padding: 20px;
 }
 
@@ -59,11 +62,11 @@ body {
 .skrt-box {
     height: 90px;
     width: 275px;
-    background-color: rgba(83, 56, 56, 0.3);
+    background-color: rgba(117, 129, 133, 0.7);
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 9rem;
-    color:rgb(238, 88, 88);
+    color: rgba(213, 77, 72, 1.0);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -72,11 +75,11 @@ body {
 .modl-klub-box {
     height: 90px;
     width: 275px;
-    background-color: rgba(83, 56, 56, 0.3);
+    background-color: rgba(117, 129, 133, 0.7);
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 5rem;
-    color:rgb(238, 88, 88);
+    color:rgba(213, 77, 72, 1.0);
     display: flex;
     justify-content: center;
     align-items: flex-start;
