@@ -73,7 +73,7 @@ body {
     }
 
 .modl-klub-box {
-    height: 90px;
+    height: 70px;
     width: 275px;
     background-color: rgba(117, 129, 133, 0.7);
     font-family: 'Rubik Dirt', cursive;
@@ -111,4 +111,12 @@ body {
 
 .socials-links {
     color: rgba(253, 255, 252, 1.0);
+}
+
+#no-socials {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
