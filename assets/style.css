@@ -84,3 +84,15 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
+
+#online-section {
+    background-color: rgba(117, 129, 133, 0.7);
+}
+
+#one-to-one-section {
+    background-color: rgba(117, 129, 133, 0.5);
+}
+
+#transmissions-section {
+    background-color: rgba(117, 129, 133, 0.7);
+}
