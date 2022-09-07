@@ -5,7 +5,7 @@ html {
 }
 
 #header {
-    height: 50px;
+    height: 75px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -104,8 +104,11 @@ body {
 
 #socials-container {
     width: 50%;
-    color: rgba(253, 255, 252, 1.0);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.socials-links {
+    color: rgba(253, 255, 252, 1.0);
 }
