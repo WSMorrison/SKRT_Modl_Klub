@@ -15,6 +15,7 @@
 
 <body>
     <header id="header" class="header-footer">
+
         <div>
             <a id="nav-logo" href="index.html">
                 <h1>SKRT Modl Klub</h1>
@@ -91,27 +92,37 @@
 
 <!--transmissions-->
     <section id="transmissions-section">
-        <p>Sign up for transmissions</p>
         <div>
+            <ol class="nav-list">
+                <li>Home</li>
+                <li>Online</li>
+                <li>1:1</li>
+                <li>Transmissions</li>
+            </ol>
+        </div>
+        <div id="form-container">
+            <div id="checkbox-container">
+                <div>
+                    <label for="skrts-checkbox">SKRTs!</label>
+                    <input type="checkbox" id="skrts-checkbox" name="skrts-cars">
+                </div>
+                <div>
+                    <label for="cool-checkbox">Cool Cars</label>
+                    <input type="checkbox" id="cool-checkbox" name="cool-cars">
+                </div>
+                <div>
+                    <label for="merkin-checkbox">'Merkin Cars</label>
+                    <input type="checkbox" id="merkin-checkbox" name="merkin-cars">
+                </div>
+                <div>
+                    <label for="not-checkbox">Not Cars</label>
+                    <input type="checkbox" id="not-checkbox" name="not-cars">
+                </div>
+            </div>
             <div>
                 <label for="input-email">Email</label>
                 <input id="input-email" type="email" name="email" placeholder="Email">
-            </div>
-            <div>
-                <label for="skrts-checkbox">SKRTs!</label>
-                <input type="checkbox" id="skrts-checkbox" name="skrts-cars">
-            </div>
-            <div>
-                <label for="cool-checkbox">Cool Cars</label>
-                <input type="checkbox" id="cool-checkbox" name="cool-cars">
-            </div>
-            <div>
-                <label for="merkin-checkbox">'Merkin Cars</label>
-                <input type="checkbox" id="merkin-checkbox" name="merkin-cars">
-            </div>
-            <div>
-                <label for="not-checkbox">Not Cars</label>
-                <input type="checkbox" id="not-checkbox" name="not-cars">
+                <input type="submit">
             </div>
         </div>
     </section>
