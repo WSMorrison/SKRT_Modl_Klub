@@ -92,8 +92,17 @@ body {
        justify-content: space-around;
     }
     #online-section {
-        height: 2000px;
+        height: 600px;
     }
+
+    #oto-section-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+     }
+     #oto-section {
+         height: 600px;
+     }
 }
 
 #online-section {
@@ -113,8 +122,21 @@ body {
     background-color: yellow;
 }
 
-#one-to-one-section {
+#oto-section {
     background-color: rgba(117, 129, 133, 0.5);
+}
+
+#oto-section-container {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.oto-part {
+    height: 250px;
+    width: 500px;
+    background-color: yellow;
 }
 
 #transmissions-section {
