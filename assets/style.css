@@ -21,6 +21,9 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .header-footer {
@@ -61,6 +64,8 @@ body {
 }
 
 .splash {
+    position: relative;
+    top: 75px;
     height: 300px;
     width: 100%;
     background: url(../assets/images/Splash_Alfa_Romeo_2000x.jpg) center;
