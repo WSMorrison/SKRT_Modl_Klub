@@ -159,6 +159,7 @@ body {
 #transmissions-section {
     height: 150px;
     background-color: rgb(var(--main-grade1));
+    color: rgb(var(--text-color))
 }
 
 #form-container {
