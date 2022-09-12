@@ -140,13 +140,16 @@ body {
 }
 
 #otb-img {
-    height: 150px;
-    width: 150px;
+    background-color: aqua;
 }
 
 .online-img {
     max-width: 300px;
     max-height: 300px;
+}
+
+#stash-img {
+    background-color: aqua;
 }
 
 #oto-section {
