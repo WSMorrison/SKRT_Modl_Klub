@@ -79,7 +79,7 @@ body {
 .skrt-box {
     height: 90px;
     width: 275px;
-    background-color: rgba(var(--main-color), 0.7);
+    background-color: rgba(var(--main-color), 0.5);
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 9rem;
@@ -92,7 +92,7 @@ body {
 .modl-klub-box {
     height: 70px;
     width: 275px;
-    background-color: rgba(var(--main-color), 0.7);
+    background-color: rgba(var(--main-color), 0.5);
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
     font-size: 5rem;
@@ -103,15 +103,6 @@ body {
 }
 
 @media screen and (max-width: 1500px) {
-    #online-section-container {
-       flex-direction: column;
-       align-items: center;
-       justify-content: space-around;
-    }
-    #online-section {
-        height: 600px;
-    }
-
     #oto-section-container {
         flex-wrap: wrap;
         align-items: center;
@@ -127,29 +118,50 @@ body {
 }
 
 #online-section-container {
-    height: 300px;
+    height: 1350px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .online-part {
-    height: 250px;
-    width: 500px;
-    background-color: yellow;
+    height: 450px;
+    width: 1000px;
+    /*background-color: rgba(255, 255, 0, 0.25);*/
+    display: flex;
+}
+
+#otb-part {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#news-img {
+    background-color: none;
 }
 
 #otb-img {
-    background-color: aqua;
-}
-
-.online-img {
-    max-width: 300px;
-    max-height: 300px;
+    background-color: none;
 }
 
 #stash-img {
-    background-color: aqua;
+    background-color: none;
+}
+
+.online-img {
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.online-text {
+    width: 450px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(var(--text-color));
 }
 
 #oto-section {
