@@ -233,9 +233,31 @@ body {
 }
 
 #transmissions-section {
-    height: 150px;
+    height: 300px;
     background-color: rgb(var(--main-grade1));
-    color: rgb(var(--text-color))
+    color: rgb(var(--text-color));
+}
+
+#transmissions-centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#transmissions-container {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 228, 196, 0.3);
+}
+
+.transmissions-guide > p {
+    max-width: 100px;
+}
+
+.form-part {
+    padding: 20px;
 }
 
 #form-container {
