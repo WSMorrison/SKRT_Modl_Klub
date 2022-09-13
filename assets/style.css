@@ -16,7 +16,7 @@ html {
 }
 
 #header {
-    height: 75px;
+    height: 85px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -28,6 +28,13 @@ html {
 
 .header-footer {
     background-color: rgb(var(--main-color));
+}
+
+.header-div {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -53,14 +60,26 @@ body {
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
-    text-decoration: none;
-    list-style-type: none;
-    color: rgb(var(--text-color));
-    padding: 20px;
 }
 
 .nav-list > li {
     margin-left: 10px;
+    list-style: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: rgb(var(--text-color));
+}
+
+.nav-item > h1 {
+    font-size: 1.6rem;
+    font-weight: 200;
+    padding: 10px;
+}
+
+#splash-section {
+    height: 525px;
 }
 
 .splash {
@@ -113,16 +132,23 @@ body {
      }
 }
 
+.section-head {
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: 200;
+    font-size: 3rem;
+    color: rgb(var(--secondary-color));
+}
+
 #online-section {
     background-color: rgb(var(--main-grade1));
 }
 
 #online-section-container {
-    height: 1350px;
+    height: 1500px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -137,18 +163,6 @@ body {
     flex-direction: row-reverse;
 }
 
-#news-img {
-    background-color: none;
-}
-
-#otb-img {
-    background-color: none;
-}
-
-#stash-img {
-    background-color: none;
-}
-
 .online-img {
     max-width: 450px;
     max-height: 450px;
@@ -161,6 +175,10 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(var(--text-color));
+}
+
+.online-text > h3 {
+    font-weight: 200;
 }
 
 #oto-section {
@@ -190,9 +208,14 @@ body {
     width: 150px;
     padding: 15px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     color: rgb(var(--text-dark));
+}
+
+.oto-links {
+    color:rgb(var(--text-dark))
 }
 
 #beer-part {

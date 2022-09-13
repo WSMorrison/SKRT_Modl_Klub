@@ -15,25 +15,32 @@
 
 <body>
     <header id="header" class="header-footer">
-
-        <div>
+        <div class="header-div">
             <a id="nav-logo" href="index.html">
                 <h1>SKRT Modl Klub</h1>
             </a>
         </div>
-        <div>
+        <div class="header-div">
             <ol class="nav-list">
-                <li>Home</li>
-                <li>Online</li>
-                <li>1:1</li>
-                <li>Transmissions</li>
+                <li>
+                    <a class="nav-item" href="index.html"><h1>Home</h1></a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#online-section"><h1>Online</h1></a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#oto-section"><h1>1:1</h1></a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#transmissions-section"><h1>Transmissions</h1></a>
+                </li>
             </ol>
         </div>
     </header>
 <!--header-->
 
 <!--splash-->
-    <section>
+    <section id="splash-section">
         <div class="splash">
             <div class="skrt-box">SKRT</div>
             <div class="modl-klub-box">Modl Klub</div>
@@ -43,38 +50,48 @@
 <!--online-->
     <section id="online-section">
         <div>
-            <ol class="nav-list">
-                <li>Home</li>
-                <li>Online</li>
-                <li>1:1</li>
-                <li>Transmissions</li>
-            </ol>
-        </div>
+            <h2 class="section-head">What We Do in the Onlines</h2>
+        </div>        
         <div id="online-section-container">
             <div class="online-part">
-                <div id="news-img">
+                <div>
                     <img class="online-img" src="../assets/images/News_model_show.jpg" alt="Display of upcoming kits at a hobby show." aria-label="A collection of test moldings and test model build-ups on display at a hobby and model industry show.">
                 </div>
-                <div id="modeling-news-text" class="online-text">
-                    <p>What's happening in the modelling world? Who knows? We don't, but let's talk about it like experts. There's a rumor that Tamiya is making a 1:12 RB16B. Cool! Did you hear that Fujimi is reissuing all their '90s kits with itasha decal sets? Decidedly less cool! But now you know about it, at least.</p>
+                <div>
+                    <div class="online-text">
+                        <h3>Modeling News</h3>
+                    </div>
+                    <div id="modeling-news-text" class="online-text">
+                        <p>What's happening in the modelling world? Who knows? We don't, but let's talk about it like experts. There's a rumor that Tamiya is making a 1:12 RB16B. Cool! Did you hear that Fujimi is reissuing all their '90s kits with itasha decal sets? Decidedly less cool! But now you know about it, at least.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="online-part" id="otb-part">
-                <div id="otb-img">
+                <div>
                     <img class="online-img" src="../assets/images/On_the_bench_cruiser.jpg" alt="Model Land Crusier on workbench." aria-label="A 1:24 scale model Land Cruiser from the rare Tamiya kit mocked up on a work bench with built chassis and cool-guy off road wheels. The truck wears fresh, deep, smooth gray paint and a metallic gold CRUISING decal down the side.">
                 </div>
-                <div id="otb-text" class="online-text">
-                    <p>Show off what you're working on! This is probably the most genuine part of the whole Klub. Scratchbuilding a spaceship from the You Extended Universe? Show it off. Building an overland Land Cruiser kitted out for intense mall crawling? Neat. Will you ever finish a project before starting a new one? Unlikely.</p>
+                <div>
+                    <div class="online-text">
+                        <h3>On The Bench</h3>
+                    </div>
+                    <div id="otb-text" class="online-text">
+                        <p>Show off what you're working on! This is probably the most genuine part of the whole Klub. Scratchbuilding a spaceship from the You Extended Universe? Show it off. Building an overland Land Cruiser kitted out for intense mall crawling? Neat. Will you ever finish a project before starting a new one? Unlikely.</p>
+                    </div>
                 </div>
             </div>
 
             <div class="online-part">
-                <div id="stash-img">
+                <div>
                     <img class="online-img" src="../assets/images/Stash_inspection_Lemon.jpg" alt="Cat looking at model kits." aria-label="An adorable but strict Stash Inspection Officer cat fuzzily judges a colleciton of various model kits, assessing quality and completeness and tax liabilities.">
                 </div>
-                <div id="stash-text" class="online-text">
+                <div>
+                    <div class="online-text">
+                        <h3>Stash Inspection</h3>
+                    </div>
+                    <div id="stash-text" class="online-text">
                     <p>Why do you have so many unbuilt kits? Seriously, why? If you quit your job, and built one a month for the rest of your life, you'd have to live to be like fifty or sixty years old to build them all! Which isn't entirely unreasonable, but wait did you just buy another one while reading this? Who hurt you?</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,13 +99,18 @@
 
 <!--one to one-->
     <section id="oto-section">
+        <div>
+            <h2 class="section-head">Secret Hideout</h2>
+        </div>
         <div id="oto-section-container">
             <div class="oto-part">
                 <div id="meetings-img">
                     <img class="oto-img" src="../assets/images/Station_meeting.jpg" alt="Some fellows discuss the number of rivets on a tank." aria-label="A group of genial people look on while one septegenarian jump kicks another during a productive discussion about the number of rivets on a French tank during World War 1.">
                 </div>
                 <div id="meetings-text" class="oto-text">
-                    <p>Our monthly opportunity to come together and enjoy each other's company. Show and tell discouraged.</p>
+                    <h4>Station Meetings</h4>
+                    <p>Our monthly opportunity to come together and enjoy each other's company. Bring what you're working on at your own risk.</p>
+                    <a class="oto-links" href="https://goo.gl/maps/rXXtF2CX3bHc9ebM9" target="_blank" rel="noopener" aria-label="Link to Google Maps location, opens in new tab."><i class="fa-solid fa-map-location-dot"></i></a>
                 </div>
             </div>
         
@@ -97,6 +119,7 @@
                     <img class="oto-img" src="../assets/images/Monthly_beer.jpg" alt="A delicious cold beer." aria-label="A delicious, cold, crisp beer for enjoying.">
                 </div>
                 <div id="beer-text" class="oto-text">
+                    <h4>Beer of the Month</h4>
                     <p>Crack open a cold one and cut that line all crooked. Maybe sand that round thing flat. The possibilities are limited by only your imagination.</p>
                 </div>
             </div>
@@ -106,7 +129,9 @@
                     <img class="oto-img" src="../assets/images/Stash_adjustment.jpg" alt="A model kit vendor area." aria-label="The sad reality of the hobby is illustrated here, where a group of unhappy middle aged men stroll sheepishly between piles of model kits that they will buy but never build.">
                 </div>
                 <div id="annual-adjustment-text" class="oto-text">
-                    <p>When: The last weekend of every September. Where everyone somehow leaves with more than they came with.</p>
+                    <h4>Annual Adjustment</h4>
+                    <p>The last weekend of every September.</p><p>Where everyone somehow leaves with more than they came with.</p>
+                    <a class="oto-links" href="https://goo.gl/maps/rXXtF2CX3bHc9ebM9" target="_blank" rel="noopener" aria-label="Link to Google Maps location, opens in new tab."><i class="fa-solid fa-map-location-dot"></i></a>
                 </div>
             </div>
         </div>
@@ -114,6 +139,9 @@
 
 <!--transmissions-->
     <section id="transmissions-section">
+        <div>
+            <h2 class="section-head">SKRT Transmissions</h2>
+        </div>
         <div id="form-container">
             <div id="checkbox-container">
                 <div>
