@@ -137,6 +137,7 @@ body {
     font-weight: 200;
     font-size: 3rem;
     color: rgb(var(--secondary-color));
+    text-align: center;
 }
 
 #online-section {
@@ -194,7 +195,7 @@ body {
 }
 
 .oto-part {
-    height: 250px;
+    height: 300px;
     width: 500px;
     display: flex;
 }
@@ -205,6 +206,7 @@ body {
 }
 
 .oto-text {
+    max-height: 300px;
     width: 150px;
     padding: 15px;
     display: flex;
