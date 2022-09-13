@@ -15,6 +15,14 @@ html {
     --accent-color: 57, 170, 173;
 }
 
+a:hover {
+    color: rgb(var(--secondary-color));
+}
+
+#nav-logo > h1:hover {
+    color: rgb(var(--secondary-color));
+}
+
 #header {
     height: 85px;
     width: 100%;
