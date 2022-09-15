@@ -191,12 +191,14 @@ body {
 
 #oto-section {
     background-color: rgb(var(--main-grade2));
+    height: 150rem;
 }
 
 #oto-section-container {
-    height: 45rem;
+    height: 150rem;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
