@@ -24,8 +24,8 @@ a:hover {
 }
 
 #header {
-    height: 85px;
-    width: 100%;
+    height: 8.5rem;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -39,7 +39,7 @@ a:hover {
 }
 
 .header-div {
-    height: 90px;
+    height: 9rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ body {
     font-weight: 200;
     font-size: 1.6rem;
     color: rgb(var(--text-color));
-    padding: 20px;
+    padding: 2rem;
 }
 
 .nav-list {
@@ -71,7 +71,7 @@ body {
 }
 
 .nav-list > li {
-    margin-left: 10px;
+    margin-left: 1rem;
     list-style: none;
 }
 
@@ -83,18 +83,18 @@ body {
 .nav-item > h1 {
     font-size: 1.6rem;
     font-weight: 200;
-    padding: 10px;
+    padding: 1rem;
 }
 
 #splash-section {
-    height: 525px;
+    height: 52.5rem;
 }
 
 .splash {
     position: relative;
-    top: 75px;
-    height: 450px;
-    width: 100%;
+    top: 7.5rem;
+    height: 45rem;
+    width: 100vw;
     background: url(../assets/images/Splash_Alfa_Romeo_2000x.jpg) center;
     background-size: cover;
     display: flex;
@@ -104,8 +104,8 @@ body {
 }
 
 .skrt-box {
-    height: 90px;
-    width: 275px;
+    height: 9rem;
+    width: 27.5rem;
     background-color: rgba(var(--main-color), 0.5);
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
@@ -117,8 +117,8 @@ body {
     }
 
 .modl-klub-box {
-    height: 70px;
-    width: 275px;
+    height: 7rem;
+    width: 27.5rem;
     background-color: rgba(var(--main-color), 0.5);
     font-family: 'Rubik Dirt', cursive;
     font-weight: 200;
@@ -127,17 +127,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-}
-
-@media screen and (max-width: 1500px) {
-    #oto-section-container {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-     }
-     #oto-section {
-         height: 600px;
-     }
 }
 
 .section-head {
@@ -150,36 +139,46 @@ body {
 
 #online-section {
     background-color: rgb(var(--main-grade1));
+    display: flex;
+    flex-direction: column;
 }
 
 #online-section-container {
-    height: 1500px;
-    width: 100%;
+    height: 270rem;
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .online-part {
-    height: 450px;
-    width: 1000px;
+    height: 90rem;
+    width: 45rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#otb-part {
+.content-box {
+    height: 45rem;
+    width: 45rem;
+}
+
+/*#otb-part {
     display: flex;
     flex-direction: row-reverse;
-}
+}*/
 
 .online-img {
-    max-width: 450px;
-    max-height: 450px;
+    max-width: 45rem;
+    max-height: 45rem;
 }
 
 .online-text {
-    width: 450px;
-    padding: 30px;
+    width: 45rem;
+    padding: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,28 +194,28 @@ body {
 }
 
 #oto-section-container {
-    height: 450px;
-    width: 100%;
+    height: 45rem;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .oto-part {
-    height: 300px;
-    width: 500px;
+    height: 30rem;
+    width: 50rem;
     display: flex;
 }
 
 .oto-img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 30rem;
+    max-height: 30rem;
 }
 
 .oto-text {
-    max-height: 300px;
-    width: 150px;
-    padding: 15px;
+    max-height: 30rem;
+    width: 15rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -233,7 +232,7 @@ body {
 }
 
 #transmissions-section {
-    height: 300px;
+    height: 30rem;
     background-color: rgb(var(--main-grade1));
     color: rgb(var(--text-color));
 }
@@ -245,7 +244,7 @@ body {
 }
 
 #transmissions-container {
-    width: 700px;
+    width: 70rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -253,11 +252,11 @@ body {
 }
 
 .transmissions-guide > p {
-    max-width: 100px;
+    max-width: 10rem;
 }
 
 .form-part {
-    padding: 20px;
+    padding: 2rem;
 }
 
 #form-container {
@@ -272,14 +271,14 @@ body {
 }
 
 #footer {
-    height: 50px;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #socials-container {
-    width: 50%;
+    width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -304,7 +303,20 @@ body {
 }
 
 #why-box {
-    height: 40px;
+    height: 4rem;
     font-size: 1.6rem;
-    padding: 22px;
+    padding: 2rem;
 }
+
+
+/*@media screen and (max-width: 1500px) {
+    #oto-section-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+     }
+     #oto-section {
+         height: 600px;
+     }
+}
+*/

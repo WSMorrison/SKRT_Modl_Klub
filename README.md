@@ -1,6 +1,6 @@
 #SKRT model klub
 
-SKRT model klub is a satire leaning website for a scale modelers. It is an alternative to obsolete magazines, aging forums, unfocused social media, and gate keeping in-person clubs. SKRT model klub targets people who want to keep up to date with the hobby and their friends, but are frustrated with a flood of unqualified users and creators on other platforms. It will provide a way for users to find the appropriate discord server for keeping informed about industry news, as well as keeping up with what their friends are working on. It will also give information on in person meetings and swap meets.
+SKRT model klub is a satire leaning website for a scale modelers. It is an alternative to obsolete magazines, aging forums, unfocused social media, and musty in-person clubs. SKRT model klub targets people who want to keep up to date with the hobby and their friends, but are frustrated with a flood of unqualified users and creators on other platforms. It will provide a way for users to find the appropriate Discord server for keeping informed about industry news, as well as keeping up with what their friends are working on. It will also give information on in person meetings and swap meets.
 
 LINKS TO PAGES
 LINKS TO PAGES
@@ -44,6 +44,7 @@ The nav bar will become transparant while scrolling.
 SHOW THE PAGE ON VARIOUS DEVICES.
 TALK ABOUT SHARING THE PAGE WITH SOME MODEL BUILDING FRIENDS FOR INPUT.
 ANY BUGS I HAD TO FIX
+Responsiveness was bad at first. Had to reorganize DIVs and change styling to use predominantly min-width rules.
 
 ###Validator Testing
 
